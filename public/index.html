@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko-KR" class="no-js">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jest + Happy DOM 테스트</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="happy-dom을 사용해 Jest 테스트" />
+    <meta name="theme-color" content="#006eb4" />
+    <link rel="icon" href="assets/html.svg" />
+    <style type="text/tailwindcss">
+      @layer base {
+        abbr {
+          @apply no-underline cursor-help;
+        }
+        a {
+          @apply text-indigo-500 hover:text-indigo-400 rounded-sm outline-4 outline-indigo-500 outline-offset-2 focus-visible:outline;
+        }
+        body {
+          @apply my-20 mx-0 text-indigo-900 bg-indigo-50;
+        }
+      }
+      @layer components {
+        .Root {
+          @apply container mx-auto flex flex-col gap-8;
+        }
+        .Headline {
+          @apply text-6xl font-thin;
+        }
+        .Group {
+          @apply flex flex-col gap-2 text-lg;
+        }
+      }
+    </style>
+    <script src="//cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+
+    <div class="Root">
+      <h1 class="Headline">
+        테스트 주도 개발 (<abbr title="Document Object Model">DOM</abbr> Test)
+      </h1>
+      <div class="Group">
+        <p>
+          <a href="https://github.com/capricorn86/happy-dom#readme" target="_blank" rel="noopener noreferrer">Happy DOM</a>은 그래픽 사용자 인터페이스가 없는 웹 브라우저의 JavaScript 구현입니다.
+          여기에는 <a href="https://dom.spec.whatwg.org/" target="_blank" rel="noopener noreferrer"><abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> DOM</a> 및
+          <a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noopener noreferrer"><abbr title="Hyper Text Markup Language">HTML</abbr></a>의 많은 웹 표준이 포함됩니다.
+        </p>
+        <p>
+          Happy DOM의 목표는 테스트, 웹 사이트 스크래핑(scraping) 및 서버 사이드 렌더링(server-side rendering)에 유용하도록 웹 브라우저를 에뮬레이트하는 것입니다.
+          Happy DOM은 성능에 중점을 두고 있으며 <a href="https://github.com/jsdom/jsdom#readme" target="_blank" rel="noopener noreferrer">JSDOM</a>의 대안으로 사용할 수 있습니다.
+          이 패키지를 사용하면 <a href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">Jest</a>와 함께 Happy DOM을 사용할 수 있습니다.
+        </p>
+      </div>
+    </div>
+
+  </body>
+
+</html>

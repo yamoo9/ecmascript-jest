@@ -1,20 +1,44 @@
-# Jest
+# TDD
 
-[Jest](https://jestjs.io/) 테스팅 프레임워크를 학습합니다.
-테스트 도구 설문 결과는 [Testing - The State of JS 2022](https://2022.stateofjs.com/en-US/libraries/testing/testing_experience_marimekko)에서 확인할 수 있습니다.
+테스트 주도 개발(Test-driven development TDD)은 매우 짧은 개발 사이클을 반복하는 소프트웨어 개발 프로세스 중 하나입니다. 
+개발자는 먼저 요구사항을 검증하는 자동화된 테스트 케이스를 작성합니다. 그리고 테스트 케이스를 통과하기 위한 최소한의 코드를 작성합니다. 
+마지막으로 작성한 코드를 [리팩토링](https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81)합니다. 
 
-# ECMAScript NEXT
+이 기법을 개발했거나 '재발견' 한 것으로 인정되는 [Kent Beck](https://en.wikipedia.org/wiki/Kent_Beck)은 2003년에 "TDD가 심플한 설계를 장려하고 자신감을 불어넣어준다"고 말했습니다.
 
-모던 JavaScript 프로그래밍을 위한 새로운 문법 중심으로 학습합니다. 
+아래는 여러분이 테스트 주도 개발(TDD) 방식으로 "테스트 → 구현 → 리팩토링" 할 함수 목록입니다. (Jest 테스팅 프레임워크 활용)
 
-## Reference
+## utils
 
-[<img src="https://exploringjs.com/impatient-js/img-homepage/cover-homepage.jpg" alt="" height="164" align="right" />](https://exploringjs.com/impatient-js/)
+1. sum.js
+1. truncateText.js
+1. getRandomNumber.js
+1. getRandomMinMax.js
+1. getDigitNumber.js
+1. getUniqueId.js
+1. binaryCalc.js
+1. fibonacci.js
+1. numberWithComma.js
+1. currency.js
+1. shuffle.js
+1. joinLine.js
+1. fetchData.js
 
-JavaScript 학습에 도움이 되는 E-Book을 소개합니다.
+## dom
 
-**JavaScript for impatient programmers (ES2022 edition)** → [목차 보기](https://exploringjs.com/impatient-js/downloads/complete-toc.html)
+1. q.js
+1. each.js
+1. styled.js
+1. on.js
+1. view.js
 
-- JavaScript에 대한 사전 지식은 필요하지 않지만 프로그래밍 방법은 알고 있어야 합니다.
-- ES2022까지 JavaScript의 모든 필수 기능을 다룹니다.
-- 선택적 고급 섹션을 통해 더 깊이 파고들 수 있습니다.
+## services
+
+1. fetchBooks.js
+
+## 참고
+
+TDD에 대해 이해하기 쉽게 정리한 글을 참고하세요.
+
+- [[기술면접] TDD(Test-Driven-Development) 방법론에 대해서](https://wooaoe.tistory.com/33)
+- [코드 품질을 높여주는 테스트 주도 개발 알아보기](https://www.samsungsds.com/kr/insights/test-driven-development.html)
