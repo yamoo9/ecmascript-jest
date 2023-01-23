@@ -23,4 +23,5 @@
 TDD에 대해 이해하기 쉽게 정리한 글을 참고하세요.
 
 - [[기술면접] TDD(Test-Driven-Development) 방법론에 대해서](https://wooaoe.tistory.com/33)
+- [테스트는 왜 해야 하는가?](https://ko.javascript.info/testing-mocha)
 - [코드 품질을 높여주는 테스트 주도 개발 알아보기](https://www.samsungsds.com/kr/insights/test-driven-development.html)
