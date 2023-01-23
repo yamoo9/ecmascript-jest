@@ -8,33 +8,14 @@
 
 아래는 여러분이 테스트 주도 개발(TDD) 방식으로 "테스트 → 구현 → 리팩토링" 할 함수 목록입니다. (Jest 테스팅 프레임워크 활용)
 
-## utils
+## TDD 개발 환경 구성
 
-1. sum.js
-1. truncateText.js
-1. getRandomNumber.js
-1. getRandomMinMax.js
-1. getDigitNumber.js
-1. getUniqueId.js
-1. binaryCalc.js
-1. fibonacci.js
-1. numberWithComma.js
-1. currency.js
-1. shuffle.js
-1. joinLine.js
-1. fetchData.js
-
-## dom
-
-1. q.js
-1. each.js
-1. styled.js
-1. on.js
-1. view.js
-
-## services
-
-1. fetchBooks.js
+- [ ] Jest 설치 및 구성
+- [ ] Jest 구성
+- [ ] Babel 구성
+- [ ] ESLint 플러그인 구성
+- [ ] DOM 테스트
+- [ ] VS Code 확장
 
 ## 참고
 
