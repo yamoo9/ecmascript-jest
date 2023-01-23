@@ -10,35 +10,28 @@
 
 ## utils
 
-1. sum.js
-1. truncateText.js
-1. getRandomNumber.js
-1. getRandomMinMax.js
-1. getDigitNumber.js
-1. getUniqueId.js
-1. binaryCalc.js
-1. fibonacci.js
-1. numberWithComma.js
-1. currency.js
-1. shuffle.js
-1. joinLine.js
-1. fetchData.js
+- [ ] sum.js
+- [ ] truncateText.js
+- [ ] getRandomNumber.js
+- [ ] getRandomMinMax.js
+- [ ] getDigitNumber.js
+- [ ] getUniqueId.js
+- [ ] binaryCalc.js
+- [ ] fibonacci.js
+- [ ] numberWithComma.js
+- [ ] currency.js
+- [ ] shuffle.js
+- [ ] joinLine.js
+- [ ] fetchData.js
 
 ## dom
 
-1. q.js
-1. each.js
-1. styled.js
-1. on.js
-1. view.js
+- [ ] q.js
+- [ ] each.js
+- [ ] styled.js
+- [ ] on.js
+- [ ] view.js
 
 ## services
 
-1. fetchBooks.js
-
-## 참고
-
-TDD에 대해 이해하기 쉽게 정리한 글을 참고하세요.
-
-- [[기술면접] TDD(Test-Driven-Development) 방법론에 대해서](https://wooaoe.tistory.com/33)
-- [코드 품질을 높여주는 테스트 주도 개발 알아보기](https://www.samsungsds.com/kr/insights/test-driven-development.html)
+- [ ] fetchBooks.js
